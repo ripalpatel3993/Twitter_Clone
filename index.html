@@ -1,0 +1,724 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home / X</title>
+    <!-- <link
+      rel="icon"
+      href="https://twitter.com/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://twitter.com/favicon.ico"
+      type="image/x-icon"
+    /> -->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=home" /> -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link href="./src/output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-black text-white">
+    <div class="flex container mx-auto relative">
+      <div class="sticky ml-10 w-[70vw] top-0 max-lg:ml-0 max-lg:w-auto max-md:ml-0">
+      <div class="first  sticky top-1 max-lg:w-18">
+        <div class="logo invert my-4 px-2 flex justify-center pr-6 max-lg:pr-2 lg:mr-23 2xl:mr-2">
+          <svg
+            viewBox="0 0 24 24"
+            aria-hidden="true"
+            class="w-8 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk"
+          >
+            <g>
+              <path
+                d="M21.742 21.75l-7.563-11.179 7.056-8.321h-2.456l-5.691 6.714-4.54-6.714H2.359l7.29 10.776L2.25 21.75h2.456l6.035-7.118 4.818 7.118h6.191-.008zM7.739 3.818L18.81 20.182h-2.447L5.29 3.818h2.447z"
+              ></path>
+            </g>
+          </svg>
+        </div>
+        <div class="sidebar flex justify-end max-lg:justify-center">
+          <ul class="flex flex-col text-xl space-y-2 px-11 max-lg:px-0 font-bold max-md:px-0">
+            <li
+              class="flex justify-start items-center gap-3 w-fit px-5 py-3 hover:bg-gray-800 hover:cursor-pointer hover:rounded-full"
+            >
+              <span class="material-symbols-outlined text-3xl">home</span><span class="block max-lg:hidden">Home</span>
+            </li>
+            <li
+              class="flex justify-start items-center gap-3 w-fit px-5 py-3 hover:bg-gray-800 hover:cursor-pointer hover:rounded-full"
+            >
+              <span class="material-symbols-outlined text-3xl">search</span
+              ><span class="block max-lg:hidden">Explore</span>
+            </li>
+            <li
+              class="flex justify-start items-center gap-3 w-fit px-5 py-3 hover:bg-gray-800 hover:cursor-pointer hover:rounded-full"
+            >
+              <span class="material-symbols-outlined text-3xl"
+                >notifications</span
+              ><span class="block max-lg:hidden">Notification</span>
+            </li>
+            <li
+              class="flex justify-start items-center gap-3 w-fit px-5 py-3 hover:bg-gray-800 hover:cursor-pointer hover:rounded-full"
+            >
+              <span class="material-symbols-outlined text-3xl">person_add</span
+              ><span class="block max-lg:hidden">Follow</span>
+            </li>
+            <li
+              class="flex justify-start items-center gap-3 w-fit px-5 py-3 hover:bg-gray-800 hover:cursor-pointer hover:rounded-full"
+            >
+              <span class="material-symbols-outlined text-3xl">mail</span><span class="block max-lg:hidden">Chat</span>
+            </li>
+            <li
+              class="flex justify-start items-center gap-3 w-fit px-5 py-3 hover:bg-gray-800 hover:cursor-pointer hover:rounded-full"
+            >
+              <span class="material-symbols-outlined text-3xl">planet</span><span class="block max-lg:hidden">Grok</span>
+            </li>
+            <li
+              class="flex justify-start items-center gap-3 w-fit px-5 py-3 hover:bg-gray-800 hover:cursor-pointer hover:rounded-full"
+            >
+              <span class="material-symbols-outlined text-3xl">bookmark</span
+              ><span class="block max-lg:hidden">Bookmark</span>
+            </li>
+            <li
+              class="flex justify-start items-center gap-3 w-fit px-5 py-3 hover:bg-gray-800 hover:cursor-pointer hover:rounded-full"
+            >
+              <span class="material-symbols-outlined text-3xl">experiment</span
+              ><span class="block max-lg:hidden">Creator Studio</span>
+            </li>
+            <li
+              class="flex justify-start items-center gap-3 w-fit px-5 py-3 hover:bg-gray-800 hover:cursor-pointer hover:rounded-full"
+            >
+              <span class="material-symbols-outlined text-3xl"
+                ><div class="logo invert">
+                  <svg
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                    class="w-6 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk"
+                  >
+                    <g>
+                      <path
+                        d="M21.742 21.75l-7.563-11.179 7.056-8.321h-2.456l-5.691 6.714-4.54-6.714H2.359l7.29 10.776L2.25 21.75h2.456l6.035-7.118 4.818 7.118h6.191-.008zM7.739 3.818L18.81 20.182h-2.447L5.29 3.818h2.447z"
+                      ></path>
+                    </g>
+                  </svg></div></span
+              ><span class="block max-lg:hidden">Premium</span>
+            </li>
+            <li
+              class="flex justify-start items-center gap-3 w-fit px-5 py-3 hover:bg-gray-800 hover:cursor-pointer hover:rounded-full"
+            >
+              <span class="material-symbols-outlined text-3xl">person</span
+              ><span class="block max-lg:hidden">Profile</span>
+            </li>
+            <li
+              class="flex justify-start items-center gap-3 w-fit px-5 py-3 hover:bg-gray-800 hover:cursor-pointer hover:rounded-full"
+            >
+              <span class="material-symbols-outlined text-3xl">pending</span
+              ><span class="block max-lg:hidden">More</span>
+            </li>
+            <div class="button">
+              <button
+                class="bg-[#1d9bf0] rounded-full p-2 w-full mt-1 flex justify-center items-center"
+              >
+                <span>Post</span>
+              </button>
+            </div>
+          </ul>
+        </div>
+      </div>
+      </div>
+
+      <!-- <div class="first w-[70%] ml-10 max-md:hidden"></div> -->
+      <div class="second w-screen border border-x-gray-500 border-y-black max-md:w-fit">
+        <div
+          class="top flex justify-center border-b border-gray-500 border-x-black"
+        >
+          <div
+            class="left w-1/2 h-13 flex justify-center cursor-pointer font-bold items-center relative"
+          >
+            <div
+              class="absolute w-14 h-1 rounded-full bg-[#1d9bf0] bottom-0"
+            ></div>
+            For You
+          </div>
+          <div
+            class="right w-1/2 h-13 flex justify-center cursor-pointer font-bold items-center relative"
+          >
+            Following
+          </div>
+          <!-- <div class="settings"><span class="material-symbols-outlined">settings</span></div> -->
+        </div>
+
+        <div class="whatishapp flex gap-4 mr-5 ml-2 my-2 max-lg:gap-1.5 max-lg:mx-2">
+          <div class="img mt-3 mb-3 ml-3 max-lg:w-10 max-lg:ml-0">
+            <img class="w-10" src="img/Xrwvbe1q_normal.jpg" alt="" />
+          </div>
+          <div class="w-full">
+            <input
+              class="w-full text-xl h-9 mt-2 mb-3 text-white outline-none"
+              type="text"
+              placeholder="What is happening?!"
+            />
+            <div class="text-blue-500 flex flex-col w-full">
+              <div class="flex space-x-2 text-[14px]">
+                <span class="material-symbols-outlined text-3xl text-blue-500"
+                  >planet</span
+                >
+                <span class="w-full">Everyone can reply</span>
+              </div>
+              <div class="w-full mt-3 mb-1 h-px bg-gray-600"></div>
+              <div class="flex flex-row justify-between">
+              <div class="flex flex-row gap-3 my-2">
+                <span class="material-symbols-outlined cursor-pointer"
+                  >image</span
+                >
+                <span class="material-symbols-outlined cursor-pointer"
+                  >gif</span
+                >
+                <span class="material-symbols-outlined cursor-pointer"
+                  >widget_menu</span
+                >
+                <span class="material-symbols-outlined cursor-pointer"
+                  >sentiment_satisfied</span
+                >
+                <span class="material-symbols-outlined cursor-pointer"
+                  >calendar_month</span
+                >
+                <span class="material-symbols-outlined cursor-pointer"
+                  >location_on</span
+                >
+              </div>
+              <div class="button text-white">
+              <button
+                class="bg-[#1d9bf0] rounded-full p-2 w-22 mt-1 flex justify-center items-center"
+              >
+                <span>Post</span>
+              </button>
+            </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-full my-3 h-px bg-gray-600"></div>
+
+        <div class="posts">
+          <div class="post flex">
+
+            <div class="image m-4 mt-1">
+              <img class="w-14 rounded-full" src="img/rajj3.jpg" alt="" />
+            </div>
+            
+            <div class="content w-full pr-3">
+              <span class="font-bold hover:underline cursor-pointer text-white">Dulquer Salmaan</span>
+              <span class="text-gray-500">@dulQuer · 20h</span>
+              <div class="text-gray-50">
+                Wishing you the happiest birthday Shruti Amma 🤗🤗❤️❤️! Sooooo
+                much fun shooting together
+              </div>
+              <div class=" flex my-3 items-center">
+                <img class="w-100 rounded-2xl" src="img/G_vw9UwXEAEc0dd.jpeg" alt="" />
+              </div>
+              <div class="icons flex justify-between text-gray-500 w-full mt-4 mb-0">
+                <div class="icon flex justify-center items-center gap-1">
+                  <span class="material-symbols-outlined cursor-pointer">mode_comment</span>
+                  <span>100</span>
+                </div>
+                <div class="icon flex justify-center items-center gap-1">
+                  <span class="material-symbols-outlined rotate-90 cursor-pointer">repeat</span>
+                  <span>397</span>
+                </div>
+                <div class="icon flex justify-center items-center gap-1">
+                  <span class="material-symbols-outlined cursor-pointer">favorite</span>
+                  <span>6.9k</span>
+                </div>
+                <div class="icon flex justify-center items-center gap-1">
+                  <span class="material-symbols-outlined cursor-pointer">bar_chart</span>
+                  <span>69k</span>
+                </div>
+                <div class="icon flex justify-center items-center gap-2">
+                  <span class="material-symbols-outlined cursor-pointer">bookmark</span>
+                  <span class="material-symbols-outlined cursor-pointer">upload</span>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <div class="w-full my-3 h-px bg-gray-600"></div>
+        </div>
+        <div class="posts">
+          <div class="post flex">
+
+            <div class="image m-4 mt-1">
+              <img class="w-11 rounded-full" src="img/mountion.jpg" alt="" />
+            </div>
+            
+            <div class="content w-full pr-3">
+              <span class="font-bold hover:underline cursor-pointer text-white">Dulquer Salmaan</span>
+              <span class="text-gray-500">@dulQuer · 20h</span>
+              <div class="text-gray-50">
+                It is time, dear reader. 
+                BRIDGERTON IS BACK!✨
+              </div>
+              <div class=" flex my-3 items-center">
+                <img class="w-full rounded-2xl" src="img/G_wRjDvXEAAjL5C.jpeg" alt="" />
+              </div>
+              <div class="icons flex justify-between text-gray-500 w-full mt-4 mb-0">
+                <div class="icon flex justify-center items-center gap-1">
+                  <span class="material-symbols-outlined cursor-pointer">mode_comment</span>
+                  <span>100</span>
+                </div>
+                <div class="icon flex justify-center items-center gap-1">
+                  <span class="material-symbols-outlined rotate-90 cursor-pointer">repeat</span>
+                  <span>397</span>
+                </div>
+                <div class="icon flex justify-center items-center gap-1">
+                  <span class="material-symbols-outlined cursor-pointer">favorite</span>
+                  <span>6.9k</span>
+                </div>
+                <div class="icon flex justify-center items-center gap-1">
+                  <span class="material-symbols-outlined cursor-pointer">bar_chart</span>
+                  <span>69k</span>
+                </div>
+                <div class="icon flex justify-center items-center gap-2">
+                  <span class="material-symbols-outlined cursor-pointer">bookmark</span>
+                  <span class="material-symbols-outlined cursor-pointer">upload</span>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <div class="w-full my-3 h-px bg-gray-600"></div>
+        </div>
+
+        <div class="posts">
+          <div class="post flex">
+
+            <div class="image m-4 mt-1">
+              <img class="w-10 rounded-full" src="img/batman.jpg" alt="" />
+            </div>
+            
+            <div class="content w-full pr-3">
+              <span class="font-bold hover:underline cursor-pointer text-white">Bat-Man</span>
+              <span class="text-gray-500">@BatMan · 20h</span>
+              <div class="text-gray-50">
+                The night is darkest just before the dawn. And I promise you, the dawn is coming – Harvey Dent, The Dark Knight 
+              </div>
+              <div class=" flex my-3 items-center">
+                <!-- <video class="w-100 rounded-2xl" src="videos/1829529093965907713.mp4" autoplay muted></video> -->
+              </div>
+              <div class="icons flex justify-between text-gray-500 w-full mt-4 mb-0">
+                <div class="icon flex justify-center items-center gap-1">
+                  <span class="material-symbols-outlined cursor-pointer">mode_comment</span>
+                  <span>100</span>
+                </div>
+                <div class="icon flex justify-center items-center gap-1">
+                  <span class="material-symbols-outlined rotate-90 cursor-pointer">repeat</span>
+                  <span>397</span>
+                </div>
+                <div class="icon flex justify-center items-center gap-1">
+                  <span class="material-symbols-outlined cursor-pointer">favorite</span>
+                  <span>6.9k</span>
+                </div>
+                <div class="icon flex justify-center items-center gap-1">
+                  <span class="material-symbols-outlined cursor-pointer">bar_chart</span>
+                  <span>69k</span>
+                </div>
+                <div class="icon flex justify-center items-center gap-2">
+                  <span class="material-symbols-outlined cursor-pointer">bookmark</span>
+                  <span class="material-symbols-outlined cursor-pointer">upload</span>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <div class="w-full my-3 h-px bg-gray-600"></div>
+        </div>
+
+        <div class="posts">
+          <div class="post flex">
+
+            <div class="image m-4 mt-1">
+              <img class="w-10 rounded-full" src="img/Xrwvbe1q_normal.jpg" alt="" />
+            </div>
+            
+            <div class="content w-full pr-3">
+              <span class="font-bold hover:underline cursor-pointer text-white">Netflix_India</span>
+              <span class="text-gray-500">@Netflix_India · 20h</span>
+              <div class="text-gray-50">
+                Stranger Things ends in 12 HOURS.
+              </div>
+              <div class=" flex my-3 items-center">
+                <video class="w-full rounded-2xl" src="videos/1829529093965907713.mp4" autoplay muted></video>
+              </div>
+              <div class="icons flex justify-between text-gray-500 w-full mt-4 mb-0">
+                <div class="icon flex justify-center items-center gap-1">
+                  <span class="material-symbols-outlined cursor-pointer">mode_comment</span>
+                  <span>100</span>
+                </div>
+                <div class="icon flex justify-center items-center gap-1">
+                  <span class="material-symbols-outlined rotate-90 cursor-pointer">repeat</span>
+                  <span>397</span>
+                </div>
+                <div class="icon flex justify-center items-center gap-1">
+                  <span class="material-symbols-outlined cursor-pointer">favorite</span>
+                  <span>6.9k</span>
+                </div>
+                <div class="icon flex justify-center items-center gap-1">
+                  <span class="material-symbols-outlined cursor-pointer">bar_chart</span>
+                  <span>69k</span>
+                </div>
+                <div class="icon flex justify-center items-center gap-2">
+                  <span class="material-symbols-outlined cursor-pointer">bookmark</span>
+                  <span class="material-symbols-outlined cursor-pointer">upload</span>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <div class="w-full my-3 h-px bg-gray-600"></div>
+        </div>
+                <div class="posts">
+          <div class="post flex">
+
+            <div class="image m-4 mt-1">
+              <img class="w-12 rounded-full" src="img/rajj3.jpg" alt="" />
+            </div>
+            
+            <div class="content w-full pr-3">
+              <span class="font-bold hover:underline cursor-pointer text-white">Dulquer Salmaan</span>
+              <span class="text-gray-500">@dulQuer · 20h</span>
+              <div class="text-gray-50">
+                Wishing you the happiest birthday Shruti Amma 🤗🤗❤️❤️! Sooooo
+                much fun shooting together
+              </div>
+              <div class=" flex my-3 items-center">
+                <img class="w-full rounded-2xl" src="img/beautiful-6126170_1920.jpg" alt="" />
+              </div>
+              <div class="icons flex justify-between text-gray-500 w-full mt-4 mb-0">
+                <div class="icon flex justify-center items-center gap-1">
+                  <span class="material-symbols-outlined cursor-pointer">mode_comment</span>
+                  <span>100</span>
+                </div>
+                <div class="icon flex justify-center items-center gap-1">
+                  <span class="material-symbols-outlined rotate-90 cursor-pointer">repeat</span>
+                  <span>397</span>
+                </div>
+                <div class="icon flex justify-center items-center gap-1">
+                  <span class="material-symbols-outlined cursor-pointer">favorite</span>
+                  <span>6.9k</span>
+                </div>
+                <div class="icon flex justify-center items-center gap-1">
+                  <span class="material-symbols-outlined cursor-pointer">bar_chart</span>
+                  <span>69k</span>
+                </div>
+                <div class="icon flex justify-center items-center gap-2">
+                  <span class="material-symbols-outlined cursor-pointer">bookmark</span>
+                  <span class="material-symbols-outlined cursor-pointer">upload</span>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <div class="w-full my-3 h-px bg-gray-600"></div>
+        </div>
+
+                <div class="posts">
+          <div class="post flex">
+
+            <div class="image m-4 mt-1">
+              <img class="w-12 rounded-full" src="img/rajj3.jpg" alt="" />
+            </div>
+            
+            <div class="content w-full pr-3">
+              <span class="font-bold hover:underline cursor-pointer text-white">Dulquer Salmaan</span>
+              <span class="text-gray-500">@dulQuer · 20h</span>
+              <div class="text-gray-50">
+                Wishing you the happiest birthday Shruti Amma 🤗🤗❤️❤️! Sooooo
+                much fun shooting together
+              </div>
+              <div class=" flex my-3 items-center">
+                <img class="w-full rounded-2xl" src="img/sea-9983074_1920.jpg" alt="" />
+              </div>
+              <div class="icons flex justify-between text-gray-500 w-full mt-4 mb-0">
+                <div class="icon flex justify-center items-center gap-1">
+                  <span class="material-symbols-outlined cursor-pointer">mode_comment</span>
+                  <span>100</span>
+                </div>
+                <div class="icon flex justify-center items-center gap-1">
+                  <span class="material-symbols-outlined rotate-90 cursor-pointer">repeat</span>
+                  <span>397</span>
+                </div>
+                <div class="icon flex justify-center items-center gap-1">
+                  <span class="material-symbols-outlined cursor-pointer">favorite</span>
+                  <span>6.9k</span>
+                </div>
+                <div class="icon flex justify-center items-center gap-1">
+                  <span class="material-symbols-outlined cursor-pointer">bar_chart</span>
+                  <span>69k</span>
+                </div>
+                <div class="icon flex justify-center items-center gap-2">
+                  <span class="material-symbols-outlined cursor-pointer">bookmark</span>
+                  <span class="material-symbols-outlined cursor-pointer">upload</span>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <div class="w-full my-3 h-px bg-gray-600"></div>
+        </div>
+
+                <div class="posts">
+          <div class="post flex">
+
+            <div class="image m-4 mt-1">
+              <img class="w-12 rounded-full" src="img/rajj3.jpg" alt="" />
+            </div>
+            
+            <div class="content w-full pr-3">
+              <span class="font-bold hover:underline cursor-pointer text-white">Dulquer Salmaan</span>
+              <span class="text-gray-500">@dulQuer · 20h</span>
+              <div class="text-gray-50">
+                Wishing you the happiest birthday Shruti Amma 🤗🤗❤️❤️! Sooooo
+                much fun shooting together
+              </div>
+              <div class=" flex my-3 items-center">
+                <img class="w-80 rounded-2xl" src="img/vietnamese-woman-7774554_1920.jpg" alt="" />
+              </div>
+              <div class="icons flex justify-between text-gray-500 w-full mt-4 mb-0">
+                <div class="icon flex justify-center items-center gap-1">
+                  <span class="material-symbols-outlined cursor-pointer">mode_comment</span>
+                  <span>100</span>
+                </div>
+                <div class="icon flex justify-center items-center gap-1">
+                  <span class="material-symbols-outlined rotate-90 cursor-pointer">repeat</span>
+                  <span>397</span>
+                </div>
+                <div class="icon flex justify-center items-center gap-1">
+                  <span class="material-symbols-outlined cursor-pointer">favorite</span>
+                  <span>6.9k</span>
+                </div>
+                <div class="icon flex justify-center items-center gap-1">
+                  <span class="material-symbols-outlined cursor-pointer">bar_chart</span>
+                  <span>69k</span>
+                </div>
+                <div class="icon flex justify-center items-center gap-2">
+                  <span class="material-symbols-outlined cursor-pointer">bookmark</span>
+                  <span class="material-symbols-outlined cursor-pointer">upload</span>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <div class="w-full my-3 h-px bg-gray-600"></div>
+        </div>
+
+                <div class="posts">
+          <div class="post flex">
+
+            <div class="image m-4 mt-1">
+              <img class="w-12 rounded-full" src="img/rajj3.jpg" alt="" />
+            </div>
+            
+            <div class="content w-full pr-3">
+              <span class="font-bold hover:underline cursor-pointer text-white">Dulquer Salmaan</span>
+              <span class="text-gray-500">@dulQuer · 20h</span>
+              <div class="text-gray-50">
+                Wishing you the happiest birthday Shruti Amma 🤗🤗❤️❤️! Sooooo
+                much fun shooting together
+              </div>
+              <div class=" flex my-3 items-center">
+                <img class="w-full rounded-2xl" src="img/newlyweds-7201462_1920.jpg" alt="" />
+              </div>
+              <div class="icons flex justify-between text-gray-500 w-full mt-4 mb-0">
+                <div class="icon flex justify-center items-center gap-1">
+                  <span class="material-symbols-outlined cursor-pointer">mode_comment</span>
+                  <span>100</span>
+                </div>
+                <div class="icon flex justify-center items-center gap-1">
+                  <span class="material-symbols-outlined rotate-90 cursor-pointer">repeat</span>
+                  <span>397</span>
+                </div>
+                <div class="icon flex justify-center items-center gap-1">
+                  <span class="material-symbols-outlined cursor-pointer">favorite</span>
+                  <span>6.9k</span>
+                </div>
+                <div class="icon flex justify-center items-center gap-1">
+                  <span class="material-symbols-outlined cursor-pointer">bar_chart</span>
+                  <span>69k</span>
+                </div>
+                <div class="icon flex justify-center items-center gap-2">
+                  <span class="material-symbols-outlined cursor-pointer">bookmark</span>
+                  <span class="material-symbols-outlined cursor-pointer">upload</span>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <div class="w-full my-3 h-px bg-gray-600"></div>
+        </div>
+
+
+                <div class="posts">
+          <div class="post flex">
+
+            <div class="image m-4 mt-1">
+              <img class="w-12 rounded-full" src="img/rajj3.jpg" alt="" />
+            </div>
+            
+            <div class="content w-full pr-3">
+              <span class="font-bold hover:underline cursor-pointer text-white">Dulquer Salmaan</span>
+              <span class="text-gray-500">@dulQuer · 20h</span>
+              <div class="text-gray-50">
+                Wishing you the happiest birthday Shruti Amma 🤗🤗❤️❤️! Sooooo
+                much fun shooting together
+              </div>
+              <div class=" flex my-3 items-center">
+                <img class="w-100 rounded-2xl" src="img/man-9182458_1920.jpg" alt="" />
+              </div>
+              <div class="icons flex justify-between text-gray-500 w-full mt-4 mb-0">
+                <div class="icon flex justify-center items-center gap-1">
+                  <span class="material-symbols-outlined cursor-pointer">mode_comment</span>
+                  <span>100</span>
+                </div>
+                <div class="icon flex justify-center items-center gap-1">
+                  <span class="material-symbols-outlined rotate-90 cursor-pointer">repeat</span>
+                  <span>397</span>
+                </div>
+                <div class="icon flex justify-center items-center gap-1">
+                  <span class="material-symbols-outlined cursor-pointer">favorite</span>
+                  <span>6.9k</span>
+                </div>
+                <div class="icon flex justify-center items-center gap-1">
+                  <span class="material-symbols-outlined cursor-pointer">bar_chart</span>
+                  <span>69k</span>
+                </div>
+                <div class="icon flex justify-center items-center gap-2">
+                  <span class="material-symbols-outlined cursor-pointer">bookmark</span>
+                  <span class="material-symbols-outlined cursor-pointer">upload</span>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <div class="w-full my-3 h-px bg-gray-600"></div>
+        </div>
+
+
+                <div class="posts">
+          <div class="post flex">
+
+            <div class="image m-4 mt-1">
+              <img class="w-12 rounded-full" src="img/rajj3.jpg" alt="" />
+            </div>
+            
+            <div class="content w-full pr-3">
+              <span class="font-bold hover:underline cursor-pointer text-white">Dulquer Salmaan</span>
+              <span class="text-gray-500">@dulQuer · 20h</span>
+              <div class="text-gray-50">
+                Wishing you the happiest birthday Shruti Amma 🤗🤗❤️❤️! Sooooo
+                much fun shooting together
+              </div>
+              <div class=" flex my-3 items-center">
+                <img class="w-full rounded-2xl" src="img/castle-7535792_1920.jpg" alt="" />
+              </div>
+              <div class="icons flex justify-between text-gray-500 w-full mt-4 mb-0">
+                <div class="icon flex justify-center items-center gap-1">
+                  <span class="material-symbols-outlined cursor-pointer">mode_comment</span>
+                  <span>100</span>
+                </div>
+                <div class="icon flex justify-center items-center gap-1">
+                  <span class="material-symbols-outlined rotate-90 cursor-pointer">repeat</span>
+                  <span>397</span>
+                </div>
+                <div class="icon flex justify-center items-center gap-1">
+                  <span class="material-symbols-outlined cursor-pointer">favorite</span>
+                  <span>6.9k</span>
+                </div>
+                <div class="icon flex justify-center items-center gap-1">
+                  <span class="material-symbols-outlined cursor-pointer">bar_chart</span>
+                  <span>69k</span>
+                </div>
+                <div class="icon flex justify-center items-center gap-2">
+                  <span class="material-symbols-outlined cursor-pointer">bookmark</span>
+                  <span class="material-symbols-outlined cursor-pointer">upload</span>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <div class="w-full my-3 h-px bg-gray-600"></div>
+        </div>
+      </div>
+
+      
+
+      <div class="third w-[70vw] mx-5 max-lg:hidden">
+        <div class="third sticky top-0">
+        <div class="search m-3">
+          <input
+            type="text"
+            class="w-80 border border-gray-500 bg-black text-white rounded-full px-4 py-2"
+            placeholder="search"
+          />
+        </div>
+        <div
+          class="whats m-3 w-80 bg-black border border-gray-500 text-white py-5 px-3 rounded-xl space-y-3"
+        >
+          <h1 class="text-xl font-bold px-3">What's Happaning</h1>
+
+          <div class="item px-4 p-3 hover:bg-gray-800 cursor-pointer">
+            <div class="font-bold text-sm text-gray-500">Trending in India</div>
+            <div class="font-bold">#RipalPatel</div>
+            <div>10m posts</div>
+          </div>
+
+          <div class="item px-4 p-3 hover:bg-gray-800 cursor-pointer">
+            <div class="font-bold text-sm text-gray-500">Trending in India</div>
+            <div class="font-bold">#Rpmation</div>
+            <div>5m posts</div>
+          </div>
+
+          <div class="item px-4 p-3 hover:bg-gray-800 cursor-pointer">
+            <div class="font-bold text-sm text-gray-500">Trending in India</div>
+            <div class="font-bold">#Orry</div>
+            <div>40.2k posts</div>
+          </div>
+        </div>
+        <div
+          class="whats m-3 w-80 bg-black border border-gray-500 text-white py-5 px-3 rounded-xl space-y-3"
+        >
+          <h1 class="text-xl font-bold px-3">Who to follow</h1>
+
+          <div class="item px-4 p-3 space-y-3">
+            <div class="font-bold hover:bg-gray-800 cursor-pointer">
+              <div>Ripal-Patel</div>
+              <div class="font-bold text-sm text-gray-500">@RipalPatel</div>
+            </div>
+            <div class="font-bold hover:bg-gray-800 cursor-pointer">
+              <div>CristianoRonaldo_7</div>
+              <div class="font-bold text-sm text-gray-500">
+                @CristianoRonaldo
+              </div>
+            </div>
+            <div class="font-bold hover:bg-gray-800 cursor-pointer">
+              <div>Spider-Man</div>
+              <div class="font-bold text-sm text-gray-500">@SpiderMan_4</div>
+            </div>
+            <div class="font-bold hover:bg-gray-800 cursor-pointer">
+              <div>Priyanka-Chopra</div>
+              <div class="font-bold text-sm text-gray-500">
+                @PriyankaChopra_1
+              </div>
+            </div>
+            <div class="text-blue-500 mt-5 cursor-pointer">Show more</div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
